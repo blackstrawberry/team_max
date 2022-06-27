@@ -79,9 +79,9 @@ header{
     
     &.active{opacity: 1;z-index:9}
     #nav_text{
-        top:30px;
+        transform: translate(0px, 30px);
         position:fixed;top:110px;transition:.5s;height: calc(100% - 150px);
-        &.active{transform: translateY(-50px);}
+        &.active{transform: translateY(-20px);}
         .insta{width:20px;padding-top: 20px;}
         .email{font-size: 10px;color: #909090;padding-top:10px;}
     }
@@ -125,7 +125,7 @@ main{
     .sec1{
         background:#3a3e46;
         padding:30px 0px;
-        .con2,.con3,.con4{border-top: 1px solid #000;padding-top: 25px;}
+        .con2,.con3,.con4,.con5{border-top: 1px solid #000;padding-top: 25px;}
         .title{
             span{
             margin:0 auto;
@@ -152,6 +152,11 @@ main{
                 width: 50%;
                 font-size:12px;color:#fff;
                 text-align: left;
+            }
+        }
+        .con4{
+            ul:nth-of-type(3){
+                padding-bottom: 25px;
             }
         }
     }

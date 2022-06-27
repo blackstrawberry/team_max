@@ -175,7 +175,8 @@ header .wrap .back {
 }
 
 .nav #nav_text {
-  top: 30px;
+  -webkit-transform: translate(0px, 30px);
+          transform: translate(0px, 30px);
   position: fixed;
   top: 110px;
   -webkit-transition: .5s;
@@ -184,8 +185,8 @@ header .wrap .back {
 }
 
 .nav #nav_text.active {
-  -webkit-transform: translateY(-50px);
-          transform: translateY(-50px);
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
 }
 
 .nav #nav_text .insta {
@@ -274,7 +275,7 @@ main .sec1 {
   padding: 30px 0px;
 }
 
-main .sec1 .con2, main .sec1 .con3, main .sec1 .con4 {
+main .sec1 .con2, main .sec1 .con3, main .sec1 .con4, main .sec1 .con5 {
   border-top: 1px solid #000;
   padding-top: 25px;
 }
@@ -340,6 +341,10 @@ main .sec1 .detail li:nth-of-type(3) {
   font-size: 12px;
   color: #fff;
   text-align: left;
+}
+
+main .sec1 .con4 ul:nth-of-type(3) {
+  padding-bottom: 25px;
 }
 
 footer {

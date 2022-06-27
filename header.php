@@ -2,12 +2,13 @@
 <?php $asset_uri = get_theme_file_uri('assets'); ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="<?php echo $asset_uri?>/img/max_logo_white.svg" rel="shortcut icon" type="image">
+    <title>Team-Max</title>
     <link href="<?php echo $asset_uri;?>/css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
@@ -48,7 +49,7 @@
                     <li>Video</li>
                     <li>Mini Game</li>
                     <div class="insta">
-                        <a href="https://instagram.com/max_ketball?igshid=NWRhNmQxMjQ="><img src="img/insta.svg"></a>
+                        <a href="https://instagram.com/max_ketball?igshid=NWRhNmQxMjQ="><img src="<?php echo $asset_uri; ?>/img/insta.svg"></a>
                         <div class="email">kimwc97@gmail.com</div>
                     </div>
                 </ul>
